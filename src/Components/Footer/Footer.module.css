@@ -1,0 +1,27 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.FooterSign {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  background-color: darkcyan;
+  width: 400%;
+  padding: 1rem;
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+}
+
+@media only screen and (max-width: 376px) {
+  .FooterSign {
+    color: white;
+    text-align: center;
+    font-size: 15.5px;
+    background-color: darkcyan;
+    width: 91.3%;
+    padding: 1rem;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+  }
+}

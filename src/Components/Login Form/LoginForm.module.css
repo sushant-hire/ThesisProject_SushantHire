@@ -1,0 +1,126 @@
+.FormContainer {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.5%;
+  font-family: "Poppins", sans-serif;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.CustomInputBox {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 8px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.CustomInputBox:focus {
+  outline: none;
+}
+
+.ShowPasswordButton {
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.SweetAlertButton {
+  background-color: darkcyan;
+  border: none;
+  outline: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+}
+
+.SweetAlertButton:hover {
+  background-color: rgb(0, 131, 131) !important;
+}
+
+.SignUpButton {
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.ShowPasswordButton:hover {
+  background-color: rgb(0, 131, 131);
+}
+
+.SignUpButton:hover {
+  background-color: rgb(0, 131, 131);
+}
+
+.HeaderContainer {
+  display: flex;
+  text-align: center;
+}
+
+.ProfilePhoto {
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  visibility: hidden;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  margin-left: auto;
+}
+
+.CheckAccountDiv {
+  margin-top: 0.7rem;
+}
+
+.RouterLogin {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+.RouterLogin:hover {
+  text-decoration: underline;
+  text-decoration-color: darkcyan;
+  color: darkcyan;
+}
+
+@media only screen and (max-width: 376px) {
+  .FormContainer {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    font-family: "Poppins", sans-serif;
+    box-shadow: none;
+  }
+}

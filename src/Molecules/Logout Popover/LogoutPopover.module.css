@@ -1,0 +1,46 @@
+.Button {
+  width: 16rem;
+  height: 4.4rem;
+  border-radius: 10px;
+  border: white;
+  color: black;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  padding-right: 1rem;
+  margin-top: 6.9rem;
+  background-color: rgb(54, 160, 160);
+  color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.Button:hover {
+  background-color: rgb(2, 152, 152);
+}
+
+.Photo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 20%;
+  margin-left: 0.5rem;
+  margin-right: 0.4rem;
+  border: 1.8px solid gainsboro;
+}
+
+.PopoverOptions {
+  cursor: pointer;
+}
+
+.PopoverOptions:hover {
+  background-color: gainsboro;
+}
+
+.SpanCollectives {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
