@@ -67,7 +67,7 @@ function TaskopolisBox() {
     setTodos(updatedTodos);
     if (!todos.find((todo) => todo.id === id).completed) {
       Swal.fire({
-        position: "top-end",
+        position: "center",
         icon: "success",
         title: "Task completed.",
         showConfirmButton: false,
@@ -125,7 +125,7 @@ function TaskopolisBox() {
     setTodos(updatedTodos);
     setEditingTodoId(null);
     Swal.fire({
-      position: "top-end",
+      position: "center",
       icon: "success",
       title: "Your edits has been saved.",
       showConfirmButton: false,

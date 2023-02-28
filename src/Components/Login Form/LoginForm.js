@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import CustomButton from "../../Molecules/Custom Button/CustomButton";
 import CustomInput from "../../Molecules/Custom Input/CustomInput";
-import {  useSetRecoilState } from "recoil";
+import { useSetRecoilState } from "recoil";
 import { LoginAtom } from "../../Atom/Login Atom/LoginAtom";
 import styles from "./LoginForm.module.css";
 import swal from "sweetalert";
@@ -52,7 +52,7 @@ function LoginForm() {
     }
     if (!passwordRegex.test(password)) {
       setPasswordError(
-        "Invalid password. Password must contain at least 8 characters, including one letter and one number."
+        "Invalid password. Password must contain at least 8 characters, including atleast one upper case alphabet, one special character and one number."
       );
       valid = false;
     }

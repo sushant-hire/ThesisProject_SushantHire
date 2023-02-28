@@ -85,7 +85,7 @@ function RegisterForm() {
 
     if (!passwordRegex.test(password)) {
       setPasswordError(
-        "Invalid password. Password must contain at least 8 characters, including one letter and one number."
+        "Invalid password. Password must contain at least 8 characters, including atleast one upper case alphabet, one special character and one number."
       );
       valid = false;
     }

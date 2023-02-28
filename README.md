@@ -1,3 +1,24 @@
+# Name:
+Sushant Hire
+
+# Roll Number:
+fn-cal-16WKM
+
+# Cohort Name:
+Californium Frontend
+
+# Project Name:
+The Taskopolis App
+
+# Project Aim:
+To successfuly make a Task Manager/Event Planner/To-Do List application which will serve the purpose of having multiple users and persist and privatize the task items of respective users who have registered in the application. 
+
+# References:
+1) Referred the official Todoist website "https://todoist.com/app/" for an idea regarding my UI appearance.
+2) Referred the official Microsoft To-Do website "https://todo.microsoft.com/" for UI and functionalities.
+3) Referred the official CSS website "https://css-tricks.com/" for learning new CSS properties and implemented the same in my project.
+4) Referred the external MUI library for using their Popover component and implemented it in order to make the user log out from the application.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
